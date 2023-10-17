@@ -98,4 +98,13 @@ Q10. What are keywords?
 ans:-   'Keywords' in python refer as reserver and has specific meaning and used to define syntax stucture of language.
 	keywords can't be use as identifiers like ('varibles names', 'function names' etc) in python code.it used to define control 
 	structures, data types, and various other aspects of Python programming
+Q11. Can we use keywords as a variable? Support your answer with reason.
+
+Q12. What is indentation? What's the use of indentaion in Python?
+
+Q13. How can we throw some output in Python?
+
+Q14. What are operators in Python?
+
+Q15. What is difference between / and // operators?
 
