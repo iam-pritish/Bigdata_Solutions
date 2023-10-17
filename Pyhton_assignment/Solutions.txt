@@ -1,0 +1,101 @@
+1. Why do we call Python as a general purpose and high-level programming language?
+ans:- Python is versatile and can handle a wide range of task. It's not limited to a specific domain, 
+      which makes it a General-pourpose language. You can use it for web-development, data analysis, 
+      automtion, etc.
+      For Instance:-->
+      Python's vasitility allows it to handle a variety of tasks.
+      1] You can use it to creat a website using frameworks like Django or Flask.
+      2] For Statastical and scientific computing, using libraries like NumPy and SciPy.
+      3] Can use to Automate repetitive Tasks using Python Scripts.
+
+      Python is High_level because it abstracts away technical details.You don't need to worry about
+      things like memory management, which makes coding easier. Its simple and readable syntax makes
+      it high-level and user-friendly language amongs all.
+      
+      For Instance:--> When working with python, you don't have to manage Memory allocation like you would in
+      Low-Level languages. If you want to read a file,you can simply use the "open" function , read the contents,
+      and then Python takes care of relesing the memory when you're donr. Compair this to language like 'C',
+      where you'd need to handle memory allocation and deallocation manually.
+      Python's "high level" nature simlifies programming task and reduces the risk of memory related error.
+
+Q2. Why is Python called a dynamically typed language?
+ans:- Because the Data types of varibles are Determined and checked at runtime we do'nt need to declear the variable data type explicitly,
+      interpretor detect it automalically ,so opposed to statically typed languages where Data types are checked at Compail-time.
+      
+Q3. List some pros and cons of Python programming language?
+ans:- Pros:-            1. User Friendly and easy to undersand
+			2. Avialibility across all Platform such as MACos,Windows,Linux			
+	                3. large set of Library with open source forume support
+			4. It can use in wide range of applications like automation,data analysis,web-development,ML etc.
+			5. best for Data Analysis because of robust ecosystem of libraries like NumPy,pandas,scikit-learn,Tenser-Flow.
+
+      Cons:-            1. Python is Slow when it come to execution in comparision of C,C++ .
+			2. Limited support of Multithreading for developers to use multiprocessing. 
+             	
+
+Q4. In what all domains can we use Python?
+ans:-   In Web-Development
+	In Data Science and Data analysis
+	In Automation and Scripting
+	In Scientific Computation.
+	In Game Development
+	In technologies like AI,ML 	
+
+Q5. What are variable and how can we declare them?
+ans:-   Variables are used to Store and Manipulate Data.Variable likes name constarins can hold the data in various types like Text,Number,List etc.
+	To declaer the varible we need to use assignment Operator "=". ex:- variable_name = value.  
+
+Q6. How can we take an input from the user in Python?
+ans:-	By using input() function. This input() function reads the line of text enter by the user and gives string value in output.
+	ex:- user_input = input("Type Your Name Here")
+	     	
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+ans:-   In python, input() function always give you 'str' data-type by default. Dispite inserting numbers or other data type in input() function it always teates like 
+	it's 'str'. If you wants to  treat it as different data-type, you have to explicitily convert it to desire data-type using functions like 'int()';float().
+				user_input = input("Enter the age here:")			#---> the vale in the input function is 'str' data--type.
+				integer_value = int(user_input)					#---> this convers the user input to an integer.
+			# Now you can perform numerical operation with integer_value
+
+
+Q8. What is type casting?
+ans:-   Type casting / Type Conversion is to convert one data-type to other data-type as desire.
+	We can only type casting the datatype having "higher bit value" to the "lower bit value".
+
+	In Pyhton there are several in-built functions for type-casting which helps to covert data-type of Variable or values.
+	EX:-		
+			x = 5.23
+			y = int(x)			#---> 'y' converts to integere and gives 'y = 5' as integer value.
+			
+			a = 10
+			b = float(a)			#---> 'b' converts to float value and gives 'b = 10.00000' as float.
+
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+ans:-   The input() function in pyhton desinged as it can read single line input at a time. Input() function waits until user insert values.
+	If you wants to take multiple inputs form the user in single line or single call, Can do it ih this way as follows :
+	
+	*Take a single input and split it in multiple valuse:
+		
+			user_input = input("Enter mulitple values saparted by space")
+			values = user_input.split()	#---> Split the input strings into list of values. 
+			
+			for value in values:
+			      print(value)		#---> now you have list of values, and can access individully.
+			
+			x, y, z = input("Enter three values: ").split(",")
+			print("Total number of students: ", x)
+			print("Number of boys is : ", y)
+			print("Number of girls is : ", z)
+			print()
+
+			x = [int(x) for x in input("Enter multiple value: ").split(",")]
+			print("Number of list is: ", x) 
+
+
+
+Q10. What are keywords?
+ans:-   'Keywords' in python refer as reserver and has specific meaning and used to define syntax stucture of language.
+	keywords can't be use as identifiers like ('varibles names', 'function names' etc) in python code.it used to define control 
+	structures, data types, and various other aspects of Python programming
+
